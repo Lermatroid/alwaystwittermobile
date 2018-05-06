@@ -1,0 +1,13 @@
+{
+    "name": "Always Twitter Mobile",
+    "description": "Redirect Twitter.com to Mobile.twitter.com",
+    "version": "1.0",
+    "manifest_version": 2,
+    "background": {"scripts":["background.js"]},
+    "permissions": [
+      "webRequest",
+      "*://twitter.com/*",
+      "*://www.twitter.com/*",
+      "webRequestBlocking"
+    ]
+  }
