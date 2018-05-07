@@ -3,6 +3,9 @@
     "description": "Redirect Twitter.com to Mobile.twitter.com",
     "version": "1.0",
     "manifest_version": 2,
+    "icons": {
+      "48": "48.png",
+     "128": "128.png" },
     "background": {"scripts":["background.js"]},
     "permissions": [
       "webRequest",
